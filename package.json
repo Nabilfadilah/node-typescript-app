@@ -1,0 +1,22 @@
+{
+  "name": "typescript-app",
+  "version": "1.0.0",
+  "description": "Membuat Node.js REST API menggunakan Typescript. Dengan MongoDB CRUD (create, read, update, delete) API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.97"
+  }
+}
